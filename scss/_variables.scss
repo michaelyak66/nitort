@@ -1,13 +1,13 @@
-$light: #fff;
-$primary-color: #223a66;
-$secondary-color:#e12454;
-$base-color:#6F8BA4;
-$title-color:#223a66;
-$black:#222;
-$gray:#eff0f3;
-$secondary-bg:#f4f9fc;
-$border-color:#fafafa;
-$primary-font: 'Exo', sans-serif;
-$secondary-font:'Roboto', sans-serif;
+$light: #FFFFFF; // White
+$primary-color: #E67E22; // Medium Orange
+$secondary-color: #D35400; // Dark Orange
+$base-color: #F5B041; // Soft Orange
+$title-color: #2C3E50; // Charcoal Black
+$black: #1C1C1C; // Dark Black
+$gray: #ECF0F1; // Light Gray
+$secondary-bg: #FAD7A0; // Light Peach Orange for background sections
+$border-color: #F8F9F9; // Off-White for borders
+$primary-font: 'Exo', sans-serif; // Same font
+$secondary-font: 'Roboto', sans-serif; // Same font
 
-$grad-color:linear-gradient(to bottom,#05a5f9,#10dab7);
+$grad-color: linear-gradient(to bottom, #E67E22, #F5B041); // Gradient with Orange Shades

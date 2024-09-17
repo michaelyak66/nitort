@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<title>NITORTS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description"
+    content="The Leading Provider of Comprehensive Soft Hospital Facility Management Services, Ensuring the Highest Standards of Healthcare Quality and Safety">
+<meta name="keywords" content="Hospital, Cleaning, Management">
+<meta name="author" content="NITORTS">
+<meta name="publisher" content="Oyasync">
+<meta name="robots" content="index, follow">
+
+<link rel="icon" href="img/logo.png" type="image/x-icon">
+<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="img/logo.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/logo.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
+
+<meta property="og:title" content="NITORTS">
+<meta property="og:description"
+    content="The Leading Provider of Comprehensive Soft Hospital Facility Management Services, Ensuring the Highest Standards of Healthcare Quality and Safety">
+<meta property="og:image" content="img/logo.png">
+<!-- <meta property="og:url" content="https://www.yourwebsite.com"> -->
+<meta property="og:type" content="website">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="NITORTS">
+<meta name="twitter:description"
+    content="The Leading Provider of Comprehensive Soft Hospital Facility Management Services, Ensuring the Highest Standards of Healthcare Quality and Safety">
+<meta name="twitter:image" content="img/logo.png">
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    header.jumbotron {
+        background: url('img/img3.jpg') no-repeat center center;
+        background-size: cover;
+        position: relative;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .justify {
+        text-align: justify !important;
+    }
+
+    header.jumbotron .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 1, 3, 0.3);
+        /* Blue overlay with 70% opacity */
+    }
+
+    header.jumbotron .container {
+        position: relative;
+        z-index: 1;
+    }
+
+    header.jumbotron h1 {
+        animation: fadeInDown 2s;
+        font-size: 3.5rem;
+    }
+
+    header.jumbotron p {
+        animation: fadeInUp 2s;
+        font-size: 1.5rem;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    @keyframes fadeInDown {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
+<style>
+    #contact h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    #contact ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    #contact ul li {
+        margin-bottom: 10px;
+    }
+
+    #contact a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    #contact a:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+</style>
+<style>
+    #jci-standards h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+    #jci-standards p {
+        font-size: 1.2rem;
+    }
+
+    #jci-standards .card {
+        background-color: #fff;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease;
+    }
+
+    #jci-standards .card:hover {
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    }
+
+    #jci-standards .card-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    #jci-standards .card-text {
+        font-size: 1.1rem;
+    }
+
+    #jci-standards .icon {
+        color: #37474f;
+    }
+
+    .bg-primary {
+        background-color: #37474f !important;
+    }
+
+    #jci-standards .icon i {
+        font-size: 3rem;
+    }
+</style>
+<style>
+    .navbar-toggler:focus,
+    .navbar-toggler:hover {
+        background-color: #000
+    }
+</style>
+<style>
+    #why-choose-us .card {
+        background-color: #f8f9fa;
+        /* Light background for cards */
+    }
+
+    #why-choose-us .card-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #why-choose-us .card-text {
+        font-size: 1.1rem;
+    }
+
+    #whyChooseCarousel .carousel-control-prev-icon,
+    #whyChooseCarousel .carousel-control-next-icon {
+        background-color: #37474f;
+        /* Dark blue color for controls */
+        border-radius: 50%;
+        padding: 10px;
+    }
+</style>
+<style>
+    .bg-light {
+        background-color: #fff !important;
+    }
+
+    .text-primary {
+        color: #37474f !important;
+    }
+
+    #testimonials .card {
+        background-color: #f8f9fa;
+        /* Light background for cards */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #testimonials .card-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    /* Default style without padding */
+    #testimonials .card-text {
+        font-size: 1.1rem;
+        font-style: italic;
+    }
+
+    /* Apply padding only on mobile devices (max-width: 768px) */
+    @media (min-width: 768px) {
+        #testimonials .card-text {
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .irede {
+            max-width: 70%;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .irede {
+            max-width: 90%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .gram {
+            max-width: 70%;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .gram {
+            max-width: 90%;
+        }
+    }
+
+
+
+    #testimonialsCarousel .carousel-control-prev-icon,
+    #testimonialsCarousel .carousel-control-next-icon {
+        background-color: #37474f;
+        /* Dark blue color for controls */
+        border-radius: 50%;
+        padding: 10px;
+    }
+</style>
+<style>
+    #consultant-profile {
+        background-color: #f8f9fa;
+        padding: 60px 0;
+    }
+
+    #consultant-profile img {
+        max-width: 250px;
+        border: 8px solid #fff;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #consultant-profile h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    #consultant-profile h4 {
+        font-size: 1.25rem;
+        color: #6c757d;
+    }
+
+    #consultant-profile p,
+    #consultant-profile ul {
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+    #consultant-profile ul {
+        padding-left: 20px;
+    }
+
+    #consultant-profile ul li {
+        margin-bottom: 10px;
+    }
+
+    @media (max-width: 768px) {
+        #consultant-profile img {
+            max-width: 150px;
+        }
+
+        #consultant-profile h2 {
+            font-size: 2rem;
+        }
+
+        #consultant-profile h4 {
+            font-size: 1rem;
+        }
+
+        #consultant-profile p,
+        #consultant-profile ul {
+            font-size: 1rem;
+        }
+    }
+</style>
+</head>
+
+<body>
+    <div style="margin-bottom: 50px;" class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a href="index.html">
+                <img src="img/logo.png" alt="NITORTS Logo" style="max-width: 120px;">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="color: black;"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul style="color: #000; font-family: Poppins, sans-serif;" class="navbar-nav ml-auto">
+                    <li class="nav-item"><a style="color: #000; font-family: Poppins, sans-serif;" class="nav-link"
+                            href="index.html#introduction">About</a></li>
+                    <li class="nav-item"><a style="color: #000; font-family: Poppins, sans-serif;" class="nav-link"
+                            href="accreditation.html">Accreditation</a></li>
+                    <li class="nav-item"><a style="color: #000; font-family: Poppins, sans-serif;" class="nav-link"
+                            href="index.html#services">Services</a></li>
+                    <li class="nav-item"><a style="color: #000; font-family: Poppins, sans-serif;" class="nav-link"
+                            href="consultant.html">Consultant</a></li>
+                    <li class="nav-item"><a style="color: #000; font-family: Poppins, sans-serif;" class="nav-link"
+                            href="index.html#jci-standards">JCI Standards</a></li>
+                    <li class="nav-item"><a style="color: #000; font-family: Poppins, sans-serif;" class="nav-link"
+                            href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <hr>
+    </div>
+    <hr>
+
+    <section id="consultant-profile" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 text-center mb-4 mb-lg-0">
+                    <img src="img/consultant.png" class="img-fluid rounded-circle shadow-lg" alt="Dr. Tosin Akeredolu">
+                </div>
+                <div class="col-lg-8">
+                    <h2 class="text-primary">Dr. Tosin Akeredolu</h2>
+                    <h4 class="text-secondary mb-4">Executive Chairman of NITORTS Group Ltd.</h4>
+                    <p>Dr. Tosin Akeredolu is a distinguished professional in Preventive Veterinary Medicine with a
+                        strong academic background and extensive experience in the field. He has made significant
+                        contributions to Nigeria's agricultural sector and veterinary services.</p>
+                    <h5>Education and Academic Background</h5>
+                    <p>Dr. Akeredolu pursued his higher education at the University of California, Davis, specializing
+                        in Preventive Veterinary Medicine. His academic journey equipped him with extensive knowledge in
+                        veterinary public health, disease prevention, and control strategies.</p>
+                    <h5>Professional Experience</h5>
+                    <ul>
+                        <li><strong>Director at the Federal Ministry of Agriculture:</strong> Dr. Akeredolu shaped
+                            policies and implemented programs to improve agricultural practices and ensure food security
+                            in Nigeria.</li>
+                        <li><strong>Quarantine Services in Nigeria:</strong> He played a pivotal role in setting up
+                            quarantine services to prevent the introduction and spread of animal diseases, safeguarding
+                            both livestock and public health.</li>
+                    </ul>
+                    <h5>Current Role</h5>
+                    <p>Currently, Dr. Akeredolu serves as the Executive Chairman of NITORTS Group Ltd., guiding the
+                        organization towards substantial growth and innovation.</p>
+                    <h5>Personal Attributes</h5>
+                    <p>Known for his visionary leadership, strategic thinking, and commitment to excellence, Dr.
+                        Akeredolu is a respected figure in veterinary medicine and agriculture, both locally and
+                        internationally.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="contact" class="container-fluid py-5 text-white" style="background-color: #37474f;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>Contact Information</h2>
+                    <ul class="list-unstyled">
+                        <li><strong>Head Office:</strong> 4, Ligali Ayorinde Street, Victoria Island, Lagos, Nigeria
+                        </li>
+                        <li><strong>Phone:</strong> +234 8183519829</li>
+                        <li><strong>Email:</strong> <a href="mailto:operations@nitorts.com"
+                                class="text-white">operations@nitorts.com</a></li>
+                        <li><strong>Website:</strong> <a href="http://www.nitorts.com" class="text-white"
+                                target="_blank">www.nitorts.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="img/pic4.png" class="img-fluid rounded shadow" alt="Mission Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="contact" class="bg-primary text-white py-4">
+        <div class="container text-center">
+            <p>
+                <a href="#" class="text-white ml-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white ml-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white ml-2"><i class="fab fa-linkedin-in"></i></a>
+            </p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
