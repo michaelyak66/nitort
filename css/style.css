@@ -375,7 +375,7 @@ a:focus {
 }
 
 #navbarmain {
-  padding: 20px 0px;
+  padding: 0px 0px;
 }
 
 #navbarmain .nav-link {
@@ -507,7 +507,7 @@ a:focus {
   }
   .banner {
     min-height: 450px;
-    background: #fff !important;
+    background: url("../images/bg/slider-bg-1.jpg") no-repeat;
   }
 }
 
@@ -518,26 +518,32 @@ a:focus {
   }
   .banner {
     min-height: 450px;
-    background: #fff !important;
+    background: url("../images/bg/slider-bg-1.jpg") no-repeat;
   }
 }
 
 @media (max-width: 768px) {
   .banner .block h1 {
-    font-size: 56px;
+    font-size: 49px;
     line-height: 70px;
   }
   .banner {
-    /* background: #fff !important; */
+    background: url("../images/bg/slider-bg-1.jpg") no-repeat;
   }
 }
 
 @media (max-width: 992px) {
   .banner {
     /* background: #fff !important; */
+    background: url("../images/bg/slider-bg-1.jpg") no-repeat;
+
   }
 }
 
+#why-choose-us{
+  background: url("../images/bg/slider-bg-1.jpg") no-repeat;
+
+}
 .about-img img {
   border-radius: 5px;
   box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
