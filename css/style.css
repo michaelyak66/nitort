@@ -86,6 +86,25 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   border: 1px solid #D35400;
 }
 
+ul.custom-bullets {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 1.5em;  /* Adjust left padding to align text */
+}
+
+ul.custom-bullets li {
+  position: relative;
+  padding-left: 1.5em; /* Space for the bullet */
+}
+
+ul.custom-bullets li::before {
+  content: '\2022'; /* Unicode for bullet */
+  color: #D35400; /* Orange color */
+  position: absolute;
+  left: 0;
+  font-size: 1.5em; /* Adjust size if needed */
+  top: 0;
+}
+
 .py-7 {
   padding: 7rem 0px;
 }
@@ -863,7 +882,8 @@ a:focus {
 }
 
 .cta-page {
-  background: url("../images/bg/banner.jpg") no-repeat;
+  background: url("../images/home2.jpg") no-repeat 50% 70%;
+
   background-size: cover;
   position: relative;
 }
