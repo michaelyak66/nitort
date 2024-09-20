@@ -362,9 +362,14 @@ a:focus {
   }
 }
 
-.title-color {
+.title-color  {
   color: #D35400;
 }
+
+.title-color:hover  {
+  color: #D35400;
+}
+
 
 .secondary-bg {
   background: #D35400;
@@ -628,6 +633,14 @@ a:focus {
 
 .features {
   margin-top: -70px;
+}
+
+.feature {
+  margin-top: 60px;
+}
+
+.j{
+  text-align: justify !important;
 }
 
 .feature-item {
